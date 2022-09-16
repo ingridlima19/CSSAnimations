@@ -1,0 +1,24 @@
+.conteudo-principal-escrito-botao {
+    display: flex;
+    background-color: #C0503C;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20%;
+    animation: loading 3s linear infinite;
+}
+
+@keyframes loading { 
+    100% 
+    { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg);
+            
+    }
+    
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+
+}
