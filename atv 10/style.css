@@ -1,0 +1,21 @@
+.cabecalho-imagem {
+    display: flex;
+    background-color: #C0503C;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15%;
+    animation: loading 4s ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+
+@keyframes loading { 
+    100%
+    {transform: scale(0.5);}
+    0% 
+    {transform: translateX(0px);
+    100% 
+    {transform: translateX(500px);}
+}
+
+  
