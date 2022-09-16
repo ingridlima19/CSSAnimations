@@ -1,0 +1,8 @@
+.conteudo-principal-escrito-botao {
+    display: flex;
+    background-color: #C0503C;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20%;
+}
