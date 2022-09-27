@@ -1,0 +1,21 @@
+.conteudo-principal-escrito-botao {
+    display: flex;
+    background-color: #acc03c;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20%;
+    animation: moveCima 1s linear infinite;
+}
+
+@keyframes moveCima {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+    transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
