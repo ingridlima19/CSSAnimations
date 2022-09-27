@@ -1,0 +1,45 @@
+.principal {
+    display: flex;
+    flex-direction: row;
+}    
+
+.conteudo-principal-escrito-botao {
+    display: flex;
+    background-color: #acc03c;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20%;
+    animation: moveCima 2s infinite;
+}
+
+.conteudo-principal-escrito-botao2 {
+  display: flex;
+  background-color: #1100ff;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20%;
+  animation: moveCima 2s infinite;
+  animation-delay: 2s;
+}
+
+.conteudo-principal-escrito-botao3 {
+  display: flex;
+  background-color: #C0503C;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20%;
+  animation: moveCima 2s infinite;
+  animation-delay: 4s;
+}
+
+@keyframes moveCima {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+
